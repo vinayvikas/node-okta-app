@@ -1,0 +1,26 @@
+{
+  "name": "fun-with-jwts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start-dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular-devkit/schematics-cli": "^13.3.3",
+    "@okta/oidc-middleware": "^1.0.2",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "njwt": "^0.4.0"
+  },
+  "devDependencies": {
+    "@oktadev/schematics": "^5.2.2",
+    "nodemon": "^1.18.6"
+  }
+}
